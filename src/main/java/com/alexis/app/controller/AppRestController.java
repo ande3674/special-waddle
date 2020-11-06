@@ -10,7 +10,7 @@ public class AppRestController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello World!!! Local time on server is: " + LocalDateTime.now();
+        return "Hello World! Local time on server is: " + LocalDateTime.now();
     }
 
     @GetMapping("/ali")
